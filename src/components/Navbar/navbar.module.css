@@ -1,0 +1,23 @@
+header {
+  background-color: dodgerblue;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+}
+nav {
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLists {
+  display: flex;
+  gap: 1.2rem;
+}
+.navList {
+  list-style: none;
+}
+
+.active{
+  border-bottom: 2px solid #ffffff;
+}
